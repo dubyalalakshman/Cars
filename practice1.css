@@ -1,0 +1,33 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 100px;
+}
+.card{
+    border: 2px solid blueviolet;
+width: 250px;
+padding: 2rem;
+border-radius: 10px;
+background-color: aqua;
+box-shadow: 12px 10px 27px 20px rgba(0,0,0,0.75);
+}
+.card1{
+    border: 2px solid blueviolet;
+width: 200px;
+padding: 1rem;
+border-radius: 10px;
+background-color: blue;
+}
+img{
+    width: 100%;
+}
+.card-title{
+    padding: 1rem;
+    font-weight: bold;
+}
+.card-title1{
+font-family: none;
+}

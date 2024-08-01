@@ -1,0 +1,52 @@
+/* max width:end-point */
+/* mix width:start-point */ 
+
+body{
+    /* background-color: gold; */
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    body{
+        background-color:greenyellow;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px)  {
+    body{
+        background-color:skyblue;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px)  {
+    body{
+        background-color:red;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}@media screen and (min-width:992px) and (max-width:1200px)  {
+    body{
+        background-color:purple;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1400px)  {
+    body{
+        background-color:red;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

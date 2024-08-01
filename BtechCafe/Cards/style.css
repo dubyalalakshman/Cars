@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* parent styles */
+/* child elements common styles */
+.parent{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+body{
+    background-color: aqua;
+}
+.child{
+    border: 2px solid red;
+    width: 350px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.59);
+}
+.card>img-top{
+    width: 100%;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+.card-text>span{
+    font-size: .7rem;
+    font-weight: 400;
+    color: green;
+
+}
+.card-link{
+    /* for occupying full we have to use inline block */
+    display: inline-block;
+    padding: .5rem 0rem;
+    width: 100%;
+    font-size: .76rem;
+}

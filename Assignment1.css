@@ -1,0 +1,68 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   padding: 90px 500px 500px 500px;
+}
+.card{
+    border: 2px solid blueviolet;
+width: 350px;
+padding: .5rem;
+background-color: aliceblue;
+border-radius: 4%;
+}
+img{
+    width: 100%;
+    border-radius: 5%;
+}
+.card-title{
+    padding: 2px;
+}
+.card-title1{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-title2{
+    padding: 1rem;
+}
+.card2{
+    padding: 1rem;
+    background-color:rgb(173, 223, 228);
+    border-radius: 10px;
+}
+.card3{
+    padding: rem;
+padding-left: 50px;
+padding-right: 50px;
+background-color: blue;
+border-radius: 5px;
+box-shadow: 0px 0px 22px -1px rgba(66,43,214,1)
+}
+.card31{
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: bold;
+}
+.card4{
+    padding: .5rem;
+    padding-left: 50px;
+padding-right: 50px;
+}
+.card41{
+    border: none;
+    padding-left: 65px;
+padding-right: 65px;
+border-radius: 5px;
+font-weight: bold;
+}
